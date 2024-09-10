@@ -3,10 +3,11 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: <host-name>
-  PLATFORM_API_PREFIX: <platform-api>
-  PROVIDER_ORG: <porg-name>
-  API_FILES: <file/files name>
+  API_HOST: managerapi.ssklabs.internal
+  PLATFORM_API_PREFIX: platformapi.ssklabs.internal
+  PROVIDER_ORG: lab
+  INSECURE_SKIP_TLS_VERIFY: true
+  API_FILES: mock.yaml
 
 jobs:
   run-discovery:
