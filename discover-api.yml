@@ -3,7 +3,7 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: managerapi.ssklabs.internal
+  API_HOST: ssklabs.internal
   PLATFORM_API_PREFIX: platformapi.ssklabs.internal
   PROVIDER_ORG: lab
   INSECURE_SKIP_TLS_VERIFY: true
