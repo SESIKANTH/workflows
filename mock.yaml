@@ -37,7 +37,7 @@ x-ibm-configuration:
           actions:
             - set: output.status
               from: input.type
-              value: '"success"'
+              value: '"successa"'
           version: 2.1.0
           title: map
           options:
