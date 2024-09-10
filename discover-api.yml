@@ -8,9 +8,11 @@ env:
   PROVIDER_ORG: lab
   INSECURE_SKIP_TLS_VERIFY: true
   API_FILES: mock.yaml
+  API_FOLDERS: workflows
   
 secrets:
   apicApikey: 82ac42b1-916c-4cfa-8251-fd21f734e0c0
+
 jobs:
   run-discovery:
     runs-on: ubuntu-latest
